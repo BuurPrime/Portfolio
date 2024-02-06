@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
 
-import Home from './pages/Home';
 import TopNavBar from './components/TopNavBar';
+import AboutMe from './pages/AboutMe';
 
 
 function App() {
   return (
     <>
     <TopNavBar/>
-    <Home/>
+    <AboutMe/>
     </>
   );
 }
