@@ -1,13 +1,9 @@
 import React, { FC } from 'react';
 
-interface MyComponentProps {
-  
-}
-
-const Home: FC<MyComponentProps> = ( ) => {
+const Home: FC = () => {
   return (
-    <div className="bg-blue-500 text-white p-4 text-2xl">
-      <h1>Hsdfsdf</h1>
+    <div className=" text-black p-4 text-2xl">
+      <h1> HomePage </h1>
     </div>
   );
 };
