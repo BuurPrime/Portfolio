@@ -1,15 +1,24 @@
 import React, { FC } from "react";
+import { Link } from "react-router-dom";
 import "./TopNavBar.css";
 
 const TopBarNav: FC = () => {
   return (
     <div className="top-nav-bar-container">
-      <p className="name-logo-top-left"> SOFIE BUUR </p>
+      <Link to="/" className="name-logo-top-left">
+        SOFIE BUUR
+      </Link>
       <hr className="horizontal-line" />
       <div className="navigation-menu">
-        <p className="navigation-menu-item"> WORK </p>
-        <p className="navigation-menu-item"> ABOUT ME </p>
-        <p className="navigation-menu-item"> CONTACT </p>
+        <Link to="/Work" className="navigation-menu-item">
+          WORK
+        </Link>
+        <Link to="/AboutMe" className="navigation-menu-item">
+          ABOUT ME
+        </Link>
+        <Link to="/Contact" className="navigation-menu-item">
+          CONTACT
+        </Link>
       </div>
       <div className="platform-links">
         <a href="https://www.linkedin.com/in/sofie-buur-msc-softwaredesign/">
