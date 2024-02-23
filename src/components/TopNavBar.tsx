@@ -5,18 +5,18 @@ import "./TopNavBar.css";
 const TopBarNav: FC = () => {
   return (
     <div className="top-nav-bar-container">
-      <Link to="/" className="name-logo-top-left">
+      <Link to="/portfolio" className="name-logo-top-left">
         SOFIE BUUR
       </Link>
       <hr className="horizontal-line" />
       <div className="navigation-menu">
-        <Link to="/Work" className="navigation-menu-item">
+        <Link to="/portfolio/Work" className="navigation-menu-item">
           WORK
         </Link>
-        <Link to="/AboutMe" className="navigation-menu-item">
+        <Link to="/portfolio/AboutMe" className="navigation-menu-item">
           ABOUT ME
         </Link>
-        <Link to="/Contact" className="navigation-menu-item">
+        <Link to="/portfolio/Contact" className="navigation-menu-item">
           CONTACT
         </Link>
       </div>

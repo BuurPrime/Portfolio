@@ -1,0 +1,38 @@
+.home-content-container{
+    margin: 0 30px 0 30px;
+}
+
+.home-header-container{
+    height:60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000E3B;
+    border-radius: 20px;
+    margin: 30px 0 30px 0;
+
+}
+
+.cursive-header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 140%;
+    color: white;
+}
+
+.main-header{
+    font-family: 'Impact', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5em;
+    line-height: 80%;
+    color: white;
+}
+
+.main-sub-header{
+    font-family: 'Impact', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 2em;
+    color: white;
+}
+
+.header-general{
+    margin-left: 30px;
+}

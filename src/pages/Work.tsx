@@ -1,9 +1,10 @@
 import { FC } from 'react';
+import './Work.css';
 
 const Work: FC = () => {
   return (
-    <div className=" text-black p-4 text-2xl">
-      <h1> My Work </h1>
+    <div>
+      <p className="WorkHeader"> My Work </p>
     </div>
   );
 };
