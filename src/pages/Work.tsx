@@ -1,10 +1,11 @@
 import { FC } from 'react';
+import WorkFeed from '../components/WorkFeed';
 
 const Work: FC = () => {
   return (
-    <div className="work-content-container">
+    <div className="mx-36">
       <h1> My work </h1>
-      
+      <WorkFeed/>
     </div>
   );
 };

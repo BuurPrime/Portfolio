@@ -5,7 +5,10 @@ const TopBarNav: FC = () => {
 
   const location = useLocation();
   const [currentPath, setCurrentPath] = useState<string>(location.pathname);
-
+  
+  const handleLinkClick = (path: string) => {
+    setCurrentPath(path);
+  };
   
   return (
     <div className="grid grid-cols-3 gap-4 mx-36 my-6 ">
@@ -18,7 +21,8 @@ const TopBarNav: FC = () => {
         <div className="group text-black transition-all duration-300 ease-in-out">
           <Link
             to="/portfolio/Work"
-            className="menu-navigation-item"
+            className={currentPath === "/portfolio/Work" ? "menu-navigation-item-active" : "menu-navigation-item"}
+            onClick={() => handleLinkClick("/portfolio/Work")}
           >
             WORK
           </Link>
@@ -26,15 +30,17 @@ const TopBarNav: FC = () => {
         <div className="group text-black transition-all duration-300 ease-in-out">
           <Link
             to="/portfolio/AboutMe"
-            className="menu-navigation-item"
+            className={currentPath === "/portfolio/AboutMe" ? "menu-navigation-item-active" : "menu-navigation-item"}
+            onClick={() => handleLinkClick("/portfolio/AboutMe")}
           >
             ABOUT ME
           </Link>
         </div>
         <div className="group text-black transition-all duration-300 ease-in-out">
           <Link
-            to="/portfolio/Contaxt"
-            className="menu-navigation-item"
+            to="/portfolio/Contact"
+            className={currentPath === "/portfolio/Contact" ? "menu-navigation-item-active" : "menu-navigation-item"}
+            onClick={() => handleLinkClick("/portfolio/Contact")}
           >
             CONTACT
           </Link>

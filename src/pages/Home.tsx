@@ -3,7 +3,7 @@ import WorkFeed from "../components/WorkFeed";
 
 const Home: FC = () => {
   return (
-    <div className=" mx-36">
+    <div className="mx-36">
       <div className="flex align-center py-40">
         <div>
           <p className="italic text-xl"> aspiring </p>
