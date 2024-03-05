@@ -3,8 +3,9 @@ import './Work.css';
 
 const Work: FC = () => {
   return (
-    <div>
-      <p className="WorkHeader"> My Work </p>
+    <div className="work-content-container">
+      <h1> My work </h1>
+      
     </div>
   );
 };
