@@ -2,20 +2,10 @@ import { FC } from "react";
 
 const WorkFeed: FC = () => {
     return (
-      <div className="home-content-container">
-        <div className="home-header-container">
-          <p className="cursive-header header-general"> aspiring </p>
-          <p className="main-header header-general">
-            FRONT END DEVELOPER
-          </p>
-          <p className="main-sub-header header-general"> WITH PROFICIENCY IN UI/UX </p>
-          <img
-              src={process.env.PUBLIC_URL + "/images/homePicMe.png"}
-              alt=""
-              className="home-page-me"
-            />
+      <div className="flex space-x-10 pt-14">
+        <div className="bg-slate-100 w-96 h-64">
+          
         </div>
-        <hr className="horizontal-line" />
       </div>
     );
   };

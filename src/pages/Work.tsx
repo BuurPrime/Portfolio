@@ -1,5 +1,4 @@
 import { FC } from 'react';
-import './Work.css';
 
 const Work: FC = () => {
   return (

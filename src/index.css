@@ -2,26 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+    .menu-navigation-item{
+        @apply mx-4 font-bold tracking-wider bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out;
+    }
+
+    h1{
+        @apply font-bold text-8xl;
+    }
+
+
+}
+
 *{
     font-family: 'SF UI Display';
-}
-
-h1{
-    font-size: 40px;
-}
-
-h2{
-    font-size: 18px;
-}
-
-h3{
-    font-size: 12px;
-}
-
-h4{
-    font-size: 8px;
-}
-
-p{
-    font-size: 14px;
 }
