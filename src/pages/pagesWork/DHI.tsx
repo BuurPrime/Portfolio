@@ -1,11 +1,11 @@
 import { FC } from 'react';
 
-const StealthStories: FC = () => {
+const DHI: FC = () => {
   return (
     <div className="flex flex-col items-center bg-slate-100 mx-36 mt-20">
-      <p className="py-4 text-xs"> Sofie Buur © 2024 </p>
+     <h1> DHI </h1>
     </div>
   );
 };
 
-export default StealthStories;
+export default DHI;

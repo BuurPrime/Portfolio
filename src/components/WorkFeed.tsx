@@ -1,16 +1,19 @@
 import { FC } from "react";
+import { Link } from "react-router-dom";
 
-const WorkFeed: FC = () => {
+const WorkFeed: FC = () => { 
   return (
     <div className="flex flex-col items-center">
       <div className="grid grid-cols-2 grid-rows-3 mt-10 gap-20">
-        <div className="w-full h-auto">
+        <Link to="/portfolio/Work/StealthStories" >
+        <div className="w-full h-auto overflow-hidden">
           <img
             src={
               process.env.PUBLIC_URL +
               "/images/stealthStories/stealthstoriesCard.png"
             }
             alt=""
+            className="zoom-in"
           />
           <h3 className="pt-4"> StealthStories</h3>
           <p>
@@ -19,6 +22,7 @@ const WorkFeed: FC = () => {
             - which secret can you share?{" "}
           </p>
         </div>
+        </Link>
 
         <div className="w-full h-auto">
           <img
@@ -47,14 +51,13 @@ const WorkFeed: FC = () => {
 
         <div className="w-full h-auto">
           <img
-            src={process.env.PUBLIC_URL + "/images/dhiGroup/dhiGroup.png"}
+            src={process.env.PUBLIC_URL + "/images/vicetone/VicetoneCard.png"}
             alt=""
           />
-          <h3 className="pt-4"> DHI Group Scenario Water Planning Tool </h3>
+          <h3 className="pt-4"> Vicetone concert posters </h3>
           <p>
             {" "}
-            In collaboration with DHI group, we created a platform for planning
-            future water secnarios{" "}
+            A creative project {" "}
           </p>
         </div>
 

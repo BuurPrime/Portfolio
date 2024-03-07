@@ -2,30 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-    .menu-navigation-item{
-        @apply mx-4 font-bold tracking-wider bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out;
-    }
+@layer components {
+  .menu-navigation-item {
+    @apply mx-4 font-bold tracking-wider bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out;
+  }
 
-    .menu-navigation-item-active{
-        @apply mx-4 font-bold tracking-wider bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:100%_2px] bg-no-repeat;
-    }
+  .menu-navigation-item-active {
+    @apply mx-4 font-bold tracking-wider bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:100%_2px] bg-no-repeat;
+  }
 
-    h1{
-        @apply font-bold text-8xl;
-    }
+  h1 {
+    @apply font-bold text-8xl;
+  }
 
-    h2{
-        @apply font-bold text-4xl
-    }
+  h2 {
+    @apply font-bold text-4xl;
+  }
 
-    h3{
-        @apply font-semibold text-2xl;
-    }
+  h3 {
+    @apply font-semibold text-2xl;
+  }
 
-
+  .zoom-in {
+    @apply transition origin-center duration-150 ease-out hover:scale-110;
+  }
 }
 
-*{
-    font-family: 'SF UI Display';
+* {
+  font-family: "SF UI Display";
 }
