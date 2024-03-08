@@ -12,7 +12,7 @@
   }
 
   h1 {
-    @apply font-bold text-8xl;
+    @apply font-bold text-9xl;
   }
 
   h2 {
@@ -20,11 +20,15 @@
   }
 
   h3 {
-    @apply font-semibold text-2xl;
+    @apply font-bold text-base;
   }
 
   .zoom-in {
     @apply transition origin-center duration-150 ease-out hover:scale-110;
+  }
+
+  .work-description{
+    @apply text-sm;
   }
 }
 

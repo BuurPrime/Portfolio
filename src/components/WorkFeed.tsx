@@ -15,7 +15,7 @@ const WorkFeed: FC = () => {
             alt=""
             className="zoom-in"
           />
-          <h3 className="pt-4"> StealthStories</h3>
+          <h3 className="pt-4"> STEALTHSTORIES </h3>
           <p>
             {" "}
             StealthStories is a platform where one can share stories anonymously
@@ -29,8 +29,8 @@ const WorkFeed: FC = () => {
             src={process.env.PUBLIC_URL + "/images/voi/voiCard.png"}
             alt=""
           />
-          <h3 className="pt-4"> voi. Radical Redesign </h3>
-          <p>
+          <h3 className="pt-4"> VOI RADICAL REDESIGN </h3>
+          <p className="work-description">
             {" "}
             voi is an app for renting e-scooters in the city. The redesign{" "}
           </p>
@@ -42,7 +42,7 @@ const WorkFeed: FC = () => {
             alt=""
           />
           <h3 className="pt-4"> DHI Group Scenario Water Planning Tool </h3>
-          <p>
+          <p className="work-description">
             {" "}
             In collaboration with DHI group, we created a platform for planning
             future water secnarios{" "}
@@ -55,7 +55,7 @@ const WorkFeed: FC = () => {
             alt=""
           />
           <h3 className="pt-4"> Vicetone concert posters </h3>
-          <p>
+          <p className="work-description">
             {" "}
             A creative project {" "}
           </p>
@@ -70,7 +70,7 @@ const WorkFeed: FC = () => {
             alt=""
           />
           <h3 className="pt-4"> DHI Group Scenario Water Planning Tool </h3>
-          <p> In collaboration with DHI group, we created a platform for planning future water secnarios </p>
+          <p className="work-description"> In collaboration with DHI group, we created a platform for planning future water secnarios </p>
         </div>
 
         <div className="w-full h-auto">
@@ -82,7 +82,7 @@ const WorkFeed: FC = () => {
             alt=""
           />
           <h3 className="pt-4"> DHI Group Scenario Water Planning Tool </h3>
-          <p> In collaboration with DHI group, we created a platform for planning future water secnarios </p>
+          <p className="work-description"> In collaboration with DHI group, we created a platform for planning future water secnarios </p>
         </div>
 
       </div>
