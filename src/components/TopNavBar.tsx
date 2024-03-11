@@ -53,7 +53,7 @@ const TopBarNav: FC = () => {
             alt=""
             width="20"
             height="20"
-            className="ml-4"
+            className="ml-6"
           />
         </a>
         <a href="https://github.com/BuurPrime">
@@ -62,7 +62,7 @@ const TopBarNav: FC = () => {
             alt=""
             width="20"
             height="20"
-            className="ml-4"
+            className="ml-6"
           />
         </a>
       </div>

@@ -4,11 +4,11 @@
 
 @layer components {
   .menu-navigation-item {
-    @apply mx-4 font-bold tracking-wider bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out;
+    @apply mx-6 font-bold tracking-wider bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out;
   }
 
   .menu-navigation-item-active {
-    @apply mx-4 font-bold tracking-wider bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:100%_2px] bg-no-repeat;
+    @apply mx-6 font-bold tracking-wider bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:100%_2px] bg-no-repeat;
   }
 
   h1 {
@@ -20,7 +20,7 @@
   }
 
   h3 {
-    @apply font-bold text-base;
+    @apply font-bold text-base md:text-lg lg:text-xl xl:text-2xl;
   }
 
   .zoom-in {
