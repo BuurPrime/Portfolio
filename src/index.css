@@ -30,8 +30,13 @@
   .work-description{
     @apply text-sm;
   }
+
+  .work-title{
+    @apply text-7xl font-bold;
+  }
 }
 
 * {
   font-family: "SF UI Display";
 }
+
